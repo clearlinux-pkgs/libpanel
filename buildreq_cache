@@ -1,0 +1,5 @@
+1.4.0
+gi-docgen
+pkgconfig(gi-docgen)
+pkgconfig(gtksourceview-5)
+pkgconfig(libadwaita-1)
