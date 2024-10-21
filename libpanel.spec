@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : libpanel
-Version  : 1.8.0
-Release  : 7
-URL      : https://gitlab.gnome.org/GNOME/libpanel/-/archive/1.8.0/libpanel-1.8.0.tar.gz
-Source0  : https://gitlab.gnome.org/GNOME/libpanel/-/archive/1.8.0/libpanel-1.8.0.tar.gz
+Version  : 1.8.1
+Release  : 8
+URL      : https://gitlab.gnome.org/GNOME/libpanel/-/archive/1.8.1/libpanel-1.8.1.tar.gz
+Source0  : https://gitlab.gnome.org/GNOME/libpanel/-/archive/1.8.1/libpanel-1.8.1.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : LGPL-3.0
@@ -87,10 +87,10 @@ locales components for the libpanel package.
 
 
 %prep
-%setup -q -n libpanel-1.8.0
-cd %{_builddir}/libpanel-1.8.0
+%setup -q -n libpanel-1.8.1
+cd %{_builddir}/libpanel-1.8.1
 pushd ..
-cp -a libpanel-1.8.0 buildavx2
+cp -a libpanel-1.8.1 buildavx2
 popd
 
 %build
@@ -98,7 +98,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1726852483
+export SOURCE_DATE_EPOCH=1729542534
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
