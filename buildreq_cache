@@ -1,4 +1,4 @@
-1.9.0
+1.10.0
 gi-docgen
 pkgconfig(gi-docgen)
 pkgconfig(gtksourceview-5)
